@@ -7,9 +7,7 @@ import base64
 st.set_page_config(layout="wide", page_title="Image Background Remover")
 
 st.write("## Удалите любой фон с вашего изображения!")
-st.write(
-    "Текст"
-)
+
 st.sidebar.write("## Загрузить и скачать :gear:")
 
 MAX_FILE_SIZE = 5 * 1024 * 1024  # 5MB
